@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "An HTTP API that will manage items from Tailwind Traders database",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
     "start": "node ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["api","database"],
+  "keywords": [
+    "api",
+    "database"
+  ],
   "author": "Rodrigo Maia",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "map": "^1.0.1"
+  }
 }
